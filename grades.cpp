@@ -15,42 +15,42 @@ int main(){
     cout << "\n";
 
     if( mark >= 90 ){
-        cout << "Good Job. You get an A+!!!!!!!" <<  endl;
+        cout << "Good Job. You get an A+!!!!!!!" <<  endl; // 90 and up
     }
 
     if ( mark >= 80 && mark <= 89){
-        cout << "Good Job, you get an A!!!!!!!!" << endl;
+        cout << "Good Job, you get an A!!!!!!!!" << endl; // 80-89
     }
 
     if ( mark >= 70 && mark <= 79){
-        cout << "Good Job, you get an B!!!!!!!!" << endl;
+        cout << "Good Job, you get an B!!!!!!!!" << endl; // 70-79
     }
 
     if ( mark >= 60 && mark <= 69){
-        cout << "You get an C!, better luck next time." << endl;
+        cout << "You get an C!, better luck next time." << endl; // 60-69
     }
 
     if ( mark >= 50 && mark <= 59){
-        cout << "You got a D, try harder next time,  you can do it!" << endl;
+        cout << "You got a D, try harder next time,  you can do it!" << endl; // 50-59
     }
 
     if ( mark >= 40 && mark <= 49){
-        cout << "You get an E, bad mark but you can always do better." << endl;
+        cout << "You get an E, bad mark but you can always do better." << endl; // 40-49
     }
 
     if ( mark >= 20 && mark <= 39){
-        cout << "You get an F, disappointing, try much harder next time." << endl;
+        cout << "You get an F, disappointing, try much harder next time." << endl; // 20-39
     } 
 
      if ( mark <= 19 ){
-        cout << "F, tsk tsk tsk tsk" << endl;
+        cout << "F, tsk tsk tsk tsk" << endl; // under 20
     }
 
     cout << "_________________________________________________" << endl;
 }
 
 
-
+// guide
 // a+ = 90 and above
 // a = 80-89
 // b = 70-79
